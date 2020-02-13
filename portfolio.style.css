@@ -52,29 +52,37 @@ h2{
     clear: both;
     color: #4aaaa5;
 }
-
-div.novo {    
+.port {
     
-    padding: 30px 50px 120px;
-    margin: auto;
-    margin-top: 20px;
-    border: solid 2px#dddddd;
+    position: relative;
+    background: #fff;
     width: 960px;
+    border: solid 2px #ddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    background-color: #ffffff;
-    
-   
-}
-img {
-    float: left;  
-    padding-right: 10px;
-    transition: width 2s, height 2s, transform 2s;
-}
-img:hover {
-    width: 400px;
+    color: #777777;    
+    padding: 30px 50px 120px;
     height: 400px;
-    transform: rotate(360deg);
+    line-height: 25%;
+    overflow: scroll;
+}
+.pics {
+    width: 300px;
+    height: 300px;
+    padding: 50px; 
+    float: left;
+    
+    
+}
+.pics:hover {
+    width: 500px;
+    height: 500px;
+    
+    
+}
+.pics1 {
+    
+    padding: 50px;
+    float: right;
 }
 footer {
     position: fixed;
@@ -88,6 +96,3 @@ footer {
     padding-bottom: 0;
    
 }
-    
-
-
