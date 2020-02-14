@@ -66,18 +66,9 @@ h2{
     overflow: scroll;
 }
 .pics {
-    width: 300px;
-    height: 300px;
+    
     padding: 50px; 
-    float: left;
-    
-    
-}
-.pics:hover {
-    width: 500px;
-    height: 500px;
-    
-    
+    float: left;    
 }
 .pics1 {
     
@@ -85,6 +76,7 @@ h2{
     float: right;
 }
 footer {
+    
     position: fixed;
     background-color: #666666;
     padding: 10px;
