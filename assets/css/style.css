@@ -70,11 +70,13 @@ img {
     float: left;  
     padding-right: 10px;
     transition: width 2s, height 2s, transform 2s;
+    z-index: 2;
 }
 img:hover {
     width: 400px;
     height: 400px;
     transform: rotate(360deg);
+    
 }
 footer {
     position: fixed;
